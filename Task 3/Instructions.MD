@@ -1,4 +1,4 @@
-#### <u>1. addi sp, sp, -16 </u>
+## 1. addi sp, sp, -16  
 Type: I-Type
 
 Opcode: 0010011 (for addi)  
@@ -10,7 +10,7 @@ Binary: 11111111000000010000000100010011
 Hex: ff010113   
 
 
-#### 2. li a1, 10
+## 2. li a1, 10
 Type: I-Type
 
 Opcode: 0010011 
@@ -22,7 +22,7 @@ Binary: 00000000001000000000010110010011
 Hex: 00a00593   
 
 
-#### 3. lui a0, 0x21    
+## 3. lui a0, 0x21    
 Type: U-Type
 
 Opcode: 0110111 (for lui)   
@@ -32,7 +32,7 @@ Binary: 00000000000000100001010110110111
 Hex: 00021537   
 
 
-#### 4. ld ra, 8(sp)
+## 4. ld ra, 8(sp)
 Type: I-Type
 
 Opcode: 0000011 (for ld)    
@@ -44,7 +44,7 @@ Binary: 00000000010000001011000010000011
 Hex: 00813083   
 
 
-#### 5. auipc a2, 0x14
+## 5. auipc a2, 0x14
 Type: U-Type
 
 Opcode: 0010111  
@@ -54,7 +54,7 @@ Binary: 00000000000000010100001100010111
 Hex: 00014617  
 
 
-#### 6. sub a2, a2, a0
+## 6. sub a2, a2, a0
 Type: R-Type
 
 Opcode: 0110011  
@@ -66,7 +66,7 @@ funct7: 0100000
 Binary: 01000000101001100000001100110011  
 Hex: 40a60633  
 
-#### 7. jal ra, 1036c <memset>
+## 7. jal ra, 1036c <memset>
 Type: J-Type
 
 Opcode: 1101111  
@@ -76,7 +76,7 @@ Binary: 00000010010101000000000011101111
 Hex: 254000ef  
 
 
-#### 8. auipc a0, 0x0
+## 8. auipc a0, 0x0
 Type: U-Type
 
 Opcode: 0010111  
@@ -86,7 +86,7 @@ Binary: 0000000000000000000001010010111
 Hex: 00000517  
 
 
-#### 9. lw a0, 0(sp)
+## 9. lw a0, 0(sp)
 Type: I-Type
 
 Opcode: 0000011  
@@ -98,7 +98,7 @@ Binary: 00000000000000010010001000000011
 Hex: 00012503  
 
 
-#### 10. jal ra, 100b0 <main>
+## 10. jal ra, 100b0 <main>
 Type: J-Type
 
 Opcode: 1101111  
