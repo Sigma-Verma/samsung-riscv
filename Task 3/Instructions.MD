@@ -125,7 +125,7 @@ Opcode: 0100011
 funct3: 011 
 rs1: sp = x2 = 00010    
 rs2: s0 = x8 = 01000    
-imm[11:5]: 0010000 (upper 7 bits of 32) 
+imm[11:5]: 0010000 (upper 7 bits of 32)   
 imm[4:0]: 00000 (lower 5 bits of 32)    
 Binary: 00100000100000010011000000100011    
 Hex: 02813023   
@@ -138,7 +138,7 @@ Opcode: 0100011
 funct3: 011 
 rs1: sp = x2 = 00010    
 rs2: s1 = x9 = 01001    
-imm[11:5]: 0011000 (upper 7 bits of 24) 
+imm[11:5]: 0011000 (upper 7 bits of 24)   
 imm[4:0]: 11000 (lower 5 bits of 24)    
 Binary: 00001001000100010011110000100011    
 Hex: 00913c23   
@@ -151,7 +151,7 @@ Opcode: 0100011
 funct3: 011 
 rs1: sp = x2 = 00010    
 rs2: s2 = x18 = 10010   
-imm[11:5]: 0000001 (upper 7 bits of 16) 
+imm[11:5]: 0000001 (upper 7 bits of 16)   
 imm[4:0]: 00000 (lower 5 bits of 16)    
 Binary: 00000010010000010011000010100011    
 Hex: 01213823   
