@@ -158,3 +158,15 @@ Hex: 01213823
 
 Binary: 11110111100100000000000011101111  
 Hex: f79ff0ef  
+
+
+## 15. blez a0, 1022c
+Type: B-Type
+
+Opcode: 1100011 (for branch)
+Funct3: 100
+rs1: a0 = x10 = 01010
+rs2: zero = x0 = 00000
+imm[12|10:5|4:1|11]: 1022c - 101b4 = 78 (offset)
+Binary: 00000110100001010000101101100011
+Hex: 06a05c63
