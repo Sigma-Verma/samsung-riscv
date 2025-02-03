@@ -5,7 +5,7 @@
 
 ## Basic Details
 
-**Name**: Utkarsh Verma
+**Name**: Utkarsh Verma  
 **College**: The National Institute of Engineering, Mysore  
-**Email ID**: vermautkarsh901@gmail.com
+**Email ID**: vermautkarsh901@gmail.com  
 **GitHub Profile**: Sigma-Verma  
